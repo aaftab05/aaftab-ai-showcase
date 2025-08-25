@@ -21,6 +21,7 @@ export default {
 			fontFamily: {
 				'headline': ['Space Grotesk', 'system-ui', '-apple-system', 'sans-serif'],
 				'body': ['DM Sans', 'system-ui', '-apple-system', 'sans-serif'],
+				'handwritten': ['Kalam', 'cursive'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

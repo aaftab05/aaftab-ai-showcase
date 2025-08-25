@@ -14,21 +14,12 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 py-20 text-center relative z-10">
         <div className="max-w-4xl mx-auto animate-fade-in">
           {/* Name */}
-          <h1 className="font-headline text-6xl md:text-8xl font-bold mb-6 tracking-tight">
+          <h1 className="font-handwritten text-6xl md:text-8xl font-bold mb-12 tracking-tight">
             <span className="bg-gradient-primary bg-clip-text text-transparent">
               Aaftab Zohra
             </span>
           </h1>
           
-          {/* Tagline */}
-          <p className="text-xl md:text-2xl font-medium mb-8 text-foreground/90 max-w-3xl mx-auto leading-relaxed">
-            I am an aspiring Artificial Intelligence and Machine Learning engineer with a strong foundation in software development, data science, and user-centered design. As a student leader and active contributor to technical forums, I bring a balance of technical expertise, creativity, and leadership.
-          </p>
-          
-          {/* Microcopy */}
-          <p className="text-lg md:text-xl mb-12 text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            My journey has been shaped by hands-on projects, hackathon experiences, and leadership roles where I successfully managed teams, built scalable solutions, and mentored peers. I am passionate about exploring the intersection of AI, cloud technologies, and design thinking to create impactful and accessible solutions.
-          </p>
           
           {/* CTA Button */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
@@ -38,8 +29,9 @@ const HeroSection = () => {
               asChild
             >
               <a 
-                href="/assets/resume/AaftabZohra_Resume_2025.pdf" 
-                download="AaftabZohra_Resume_2025.pdf"
+                href="https://drive.google.com/file/d/1AcBs0-eAXvzxK5trZWe0vSItG3VSxx7f/view?usp=sharing" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-3"
               >
                 <Download className="w-5 h-5 group-hover:animate-bounce" />

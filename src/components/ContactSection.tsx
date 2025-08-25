@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, Phone, Linkedin, Github, Figma, Music } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, Music } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -70,16 +70,10 @@ const ContactSection = () => {
       href: "https://github.com/aaftab05"
     },
     {
-      icon: Figma,
-      label: "Design Portfolio",
-      value: "Figma",
-      href: "#"
-    },
-    {
       icon: Music,
       label: "Podcast",
       value: "Spotify – Tech & Self-Help",
-      href: "#"
+      href: "https://open.spotify.com/show/422kquu9xU0LGWvdayTK00?si=3tDcm57AQL640y142L4nbA"
     }
   ];
 
