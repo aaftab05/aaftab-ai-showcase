@@ -9,6 +9,7 @@ import HighlightsSection from '../components/HighlightsSection';
 import ContactSection from '../components/ContactSection';
 import Navigation from '../components/Navigation';
 import ThemeControls from '../components/ThemeControls';
+import Footer from '../components/Footer';
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState('hero');
@@ -51,6 +52,7 @@ const Index = () => {
         <HighlightsSection />
         <ContactSection />
       </main>
+      <Footer />
     </div>
   );
 };
